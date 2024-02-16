@@ -1,4 +1,4 @@
-module "catalogue" {
+module "user" {
   source = "git::https://github.com/Brahmamdevops/roboshop-terraform-app.git?ref=main"
   tags = var.tags
   project_name = var.project_name
